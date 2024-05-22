@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  form.Form {
+    border: solid black;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+  
+    display:center;
+    text-align:center;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+ 
+  .inline{
+    display:inline; 
+  }
+  textarea
+   {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    height: 5em;
+  }
+  button.enviar {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    min-width: 300px;
+    border-radius: 0.5em;
+    background-color: darkgray;
+  }
+  fieldset{
+    border-radius: 0.5em;
+    
+  }
+ #name, #lastname, #email, #number{ 
+    width: 75%;
+  }
+  nav.body{
+    background-color: antiquewhite;
+   }
+
+   footer{
+    padding-bottom: 0.05%;
+    background-color: rgb( 248, 249, 250);
+   }
+
+   .warning{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    padding-top: auto;
+   }
